@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+*{
+	padding:0px;
+	margin:0px;
+}
+.nav-bar>ul{
+	width:100vw;
+	
+	background-color:grey;
+	display:flex;
+	justify-content:center;
+	
+}
+li{
+	padding:30px;
+	list-style:none;
+	
+}
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	color:red;
+	cursor:pointer;
+}
